@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buku Tamu</title>
+    <style>
+        body{
+            background-color: pink;
+        }
+        h1{
+            color:darksalmon
+            text-align: center;
+        }
+        table{
+            background-color: thistle;
+            width: 100px;
+        }
+        .row-button-form{
+            background-color: aliceblue;
+        }
+        .button-form{
+            background-color: bisque;
+        }
+    </style>
+</head>
+<body>
+    <h1>Buku Tamu</h1>
+    <table>
+        <form name="formData">
+        <tr>
+            <td>Nama Lengkap</td>
+            <td>:</td>
+            <td>
+                <input type ="text" name="txtName" size="50">
+            </td>
+        </tr>
+        <tr>
+            <td>Alamat</td>
+            <td>:</td>
+            <td>
+                <input type="text" name="txtAddress" size="80">
+            </td>
+        </tr>
+        <tr>
+            <td>Jenis Kelamin</td>
+            <td>:</td>
+            <td>
+                <input type="radio" name="rjbJK" value="pria" checked>pria
+                <input type="radio" name="rjbJK" value="wanita" checked>wanita
+            </td>
+        </tr>
+        <tr>
+            <td>Agama</td>
+            <td>:</td>
+            <td>
+                <select nama="Agama">
+                    <option value="Islam">Islam</option>
+                    <option value="Kristen">Kristen</option>
+                    <option value="Buddha">Buddha</option>
+                    <option value="Hindu">Hindu</option>
+                    <option value="Khatolik">Khatolik</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Hobi</td>
+            <td>:</td>
+            <td>
+                <input type="checkbox" name="chkhobi" value="Sport">Sport <br>
+                <input type="checkbox" name="chkhobi" value="Entertaiment">Entertaimentt <br>
+                <input type="checkbox" name="chkhobi" value="Music">Music <br>
+                <input type="checkbox" name="chkhobi" value="Vacation">Vacation <br>
+                <input type="checkbox" name="chkhobi" value="Shopping">Shopping <br>
+            </td>
+        </tr>
+        <tr>
+            <td>Komentar</td>
+            <td><:/td>
+            <td>
+                <textarea name="txtCommend" cols="50" rows="10"></textarea>
+            </td>
+        </tr>
+        </form>
+    </table>
+</body>
+</html>
